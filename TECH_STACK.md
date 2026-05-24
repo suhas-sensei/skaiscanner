@@ -89,3 +89,14 @@ Given your repo already has `yatra_django_scraper` with Django models and a `sky
 - **Node only if you specifically need it for provider adapters or frontend tooling**
 
 That keeps the project much simpler while still looking and behaving like a Skyscanner clone.
+
+
+- Observability
+      - No Sentry.
+      - No structured logging setup beyond normal logs.
+      - No Prometheus/Grafana.
+
+       - CI/CD
+      - No GitHub Actions, and you asked me to remove .git, so CI/CD is basically out unless you re-init git later.
+
+      

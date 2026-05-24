@@ -127,6 +127,45 @@ Confirm that the task wrote to Redis-backed Django cache:
 .venv/bin/python manage.py shell -c "from django.core.cache import cache; print(cache.get('route-summary:DEL:BOM:2026-05-30'))"
 ```
 
+## Observability
+
+Structured JSON logging is enabled with:
+
+```bash
+LOG_FORMAT=json
+LOG_LEVEL=INFO
+```
+
+Sentry is optional. Set `SENTRY_DSN` to enable Django and Celery error reporting:
+
+```bash
+SENTRY_DSN=https://public-key@example.ingest.sentry.io/project-id
+SENTRY_ENVIRONMENT=development
+SENTRY_TRACES_SAMPLE_RATE=0.05
+```
+
+Django metrics are exposed at:
+
+```bash
+curl http://127.0.0.1:8000/metrics
+```
+
+Run Prometheus and Grafana:
+
+```bash
+docker compose --profile observability up -d prometheus grafana
+```
+
+Open:
+
+```text
+Prometheus: http://127.0.0.1:9090
+Grafana:    http://127.0.0.1:3000
+Login:      admin / admin
+```
+
+Grafana is provisioned with a Prometheus datasource and a Django overview dashboard.
+
 ## Database Tables
 
 `flights_flightsearch` stores one row per Yatra search request.

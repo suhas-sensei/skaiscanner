@@ -1,11 +1,20 @@
 from decimal import Decimal
 
 from django.core.cache import cache
-from django.test import TestCase
+from django.test import TestCase, override_settings
 
 from .models import FlightOffer, FlightSearch
 
 
+@override_settings(
+    CACHES={
+        "default": {
+            "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
+            "LOCATION": "flight-tests",
+        }
+    },
+    SEARCH_BACKEND="postgres",
+)
 class FlightSearchApiTests(TestCase):
     def setUp(self):
         cache.clear()
