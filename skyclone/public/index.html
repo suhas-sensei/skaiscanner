@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skyclone Flight Search</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Skyclone</h1>
+        <p>Search once, compare provider prices per flight.</p>
+      </div>
+      <div class="provider-count" id="providerCount">Loading providers...</div>
+    </header>
+
+    <main>
+      <section class="search-panel">
+        <form id="searchForm">
+          <label>
+            From
+            <input name="origin" value="DEL" maxlength="3" required>
+          </label>
+          <label>
+            To
+            <input name="destination" value="CCU" maxlength="3" required>
+          </label>
+          <label>
+            Depart
+            <input name="date" type="date" required>
+          </label>
+          <label>
+            Return
+            <input name="returnDate" type="date">
+          </label>
+          <label>
+            Travellers
+            <input name="passengers" type="number" min="1" max="9" value="1">
+          </label>
+          <button type="submit">Search</button>
+        </form>
+      </section>
+
+      <section class="status" id="status">Enter a route and date to compare providers.</section>
+
+      <section class="layout">
+        <div>
+          <div class="section-title">
+            <h2>Flights</h2>
+            <span id="resultCount"></span>
+          </div>
+          <div class="flight-list" id="flightList"></div>
+        </div>
+
+        <aside class="drawer" id="providerDrawer">
+          <div class="empty-state">Select a flight to see provider prices.</div>
+        </aside>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

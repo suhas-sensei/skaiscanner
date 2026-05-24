@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="40" viewBox="0 0 88 40" role="img" aria-label="SpiceJet">
+  <rect width="88" height="40" rx="2" fill="#d71920"/>
+  <circle cx="15" cy="13" r="2" fill="#ffcc00"/>
+  <circle cx="22" cy="17" r="2" fill="#ffcc00"/>
+  <circle cx="29" cy="21" r="2" fill="#ffcc00"/>
+  <circle cx="36" cy="25" r="2" fill="#ffcc00"/>
+  <text x="47" y="25" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" font-weight="700" text-anchor="middle">spicejet</text>
+</svg>

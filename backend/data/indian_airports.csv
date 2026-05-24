@@ -1,0 +1,164 @@
+iata_code,name,municipality,airport_type,scheduled_service
+AGR,Agra Airport / Agra Air Force Station,Agra,medium_airport,yes
+AGX,Agatti Airport,Agatti,medium_airport,yes
+AHA,Maa Mahamaya Airport,Ambikapur,medium_airport,yes
+AIP,Adampur Airport,Adampur,small_airport,yes
+AJL,Lengpui Airport,Aizawl (Lengpui),medium_airport,yes
+AKD,Akola Airport,Akola,medium_airport,no
+AMD,Sardar Vallabh Patel International Airport,Ahmedabad,large_airport,yes
+ATQ,Sri Guru Ram Das Ji International Airport,Amritsar,large_airport,yes
+AYJ,Maharshi Valmiki International Airport,Faizabad,medium_airport,yes
+AZH,Azamgarh Airport,Azamgarh,small_airport,no
+BBI,Biju Patnaik International Airport,Bhubaneswar,large_airport,yes
+BDQ,Vadodara International Airport,Vadodara,large_airport,yes
+BEK,Bareilly Air Force Station,Bareilly,medium_airport,yes
+BEP,Bellary Airport,Bellary,medium_airport,no
+BHJ,Bhuj Airport,Bhuj,medium_airport,yes
+BHO,Raja Bhoj International Airport,Bhopal,large_airport,yes
+BHU,Bhavnagar Airport,Bhavnagar,medium_airport,yes
+BKB,Nal Airport,Bikaner,medium_airport,no
+BLR,Kempegowda International Airport Bengaluru,Bengaluru,large_airport,yes
+BOM,Chhatrapati Shivaji Maharaj International Airport,Mumbai,large_airport,yes
+BPM,Begumpet Airport,Hyderabad,medium_airport,no
+BUP,Bhatinda Air Force Station,,medium_airport,no
+CBD,Car Nicobar Air Force Base,IAF Camp,medium_airport,no
+CCJ,Calicut International Airport,Calicut,large_airport,yes
+CCU,Netaji Subhash Chandra Bose International Airport,Kolkata,large_airport,yes
+CDP,Kadapa Airport,Kadapa,medium_airport,yes
+CJB,Coimbatore International Airport,Coimbatore,large_airport,yes
+CNN,Kannur International Airport,Kannur,large_airport,yes
+COH,Cooch Behar Airport,Cooch Behar,small_airport,no
+COK,Cochin International Airport,Kochi,large_airport,yes
+CWK,Chitrakoot Airport,Chitrakoot,small_airport,no
+DBD,Dhanbad Airport,,medium_airport,no
+DBR,Darbhanga Airport,Darbhanga,medium_airport,yes
+DED,Dehradun Jolly Grant Airport,Dehradun (Jauligrant),medium_airport,yes
+DEL,Indira Gandhi International Airport,New Delhi,large_airport,yes
+DEP,Daporijo Airport,Daporijo,small_airport,no
+DGH,Deoghar Airport,Deoghar,small_airport,yes
+DHM,Kangra Airport,Kangra,medium_airport,yes
+DIB,Dibrugarh Airport,Dibrugarh,medium_airport,yes
+DIU,Diu Airport,Diu,small_airport,yes
+DMU,Dimapur Airport,Dimapur,medium_airport,yes
+DXN,Noida International Airport,Gautam Buddha Nagar,large_airport,no
+GAU,Lokpriya Gopinath Bordoloi International Airport,Guwahati,large_airport,yes
+GAY,Gaya Airport,Gaya,medium_airport,yes
+GBI,Kalaburagi Airport,Kalaburagi,small_airport,yes
+GDB,Gondia Airport,Gondia,medium_airport,yes
+GOI,Goa Dabolim International Airport,Vasco da Gama,large_airport,yes
+GOP,Gorakhpur Airport,Gorakhpur,medium_airport,yes
+GOX,Manohar International Airport,Mopa,large_airport,yes
+GUX,Guna Airport,,small_airport,no
+GWL,Gwalior Airport,Gwalior,medium_airport,yes
+HBX,Hubballi Airport,Hubballi,medium_airport,yes
+HDO,Hindon Airport / Hindon Air Force Station,Ghaziabad,small_airport,yes
+HGI,Itanagar Donyi Polo Hollongi Airport,Hollongi,medium_airport,yes
+HJR,Khajuraho Airport,Khajuraho,medium_airport,yes
+HRH,Aligarh Airport,Aligarh,small_airport,yes
+HSR,Rajkot International Airport,Rajkot,large_airport,yes
+HSS,Maharaja Agrasen International Airport,Hisar,large_airport,yes
+HWR,Halwara International Airport,Halwara,large_airport,yes
+HYD,Rajiv Gandhi International Airport,Hyderabad,large_airport,yes
+IDR,Devi Ahilya Bai Holkar International Airport,Indore,large_airport,yes
+IMF,Bir Tikendrajit International Airport,Imphal,large_airport,yes
+ISK,Nashik International Airport,Nashik,large_airport,yes
+IXA,Agartala - Maharaja Bir Bikram Airport,Agartala,medium_airport,yes
+IXB,Bagdogra Airport,Siliguri,large_airport,yes
+IXC,Shaheed Bhagat Singh International Airport,Chandigarh,large_airport,yes
+IXD,Prayagraj Airport,Allahabad,medium_airport,yes
+IXE,Mangaluru International Airport,Mangaluru,large_airport,yes
+IXG,Belagavi Airport,Belgaum,medium_airport,yes
+IXH,Kailashahar Airport,Kailashahar,medium_airport,no
+IXI,Lilabari North Lakhimpur Airport,Lilabari,medium_airport,yes
+IXJ,Jammu Airport,Jammu,medium_airport,yes
+IXK,Keshod Airport,Keshod,medium_airport,yes
+IXL,Leh Kushok Bakula Rimpochee Airport,Leh,medium_airport,yes
+IXM,Madurai Airport,Madurai,medium_airport,yes
+IXN,Khowai Airport,Khowai,small_airport,no
+IXP,Pathankot Airport,Pathankot,medium_airport,yes
+IXQ,Kamalpur Airport,Manik Bhandar,small_airport,no
+IXR,Birsa Munda Airport,Ranchi,medium_airport,yes
+IXS,Silchar Airport,Silchar,medium_airport,yes
+IXT,Pasighat Airport,Pasighat,small_airport,no
+IXU,Aurangabad Airport,Aurangabad,medium_airport,yes
+IXV,Along Airport,,medium_airport,no
+IXW,Sonari Airport,Jamshedpur,medium_airport,no
+IXX,Bidar Airport / Bidar Air Force Station,Bidar,medium_airport,no
+IXY,Kandla Airport,Kandla,medium_airport,yes
+IXZ,Veer Savarkar International Airport / INS Utkrosh,Port Blair,large_airport,yes
+JAI,Jaipur International Airport,Jaipur,large_airport,yes
+JDH,Jodhpur Airport,Jodhpur,medium_airport,yes
+JGA,Jamnagar Airport,Jamnagar,medium_airport,yes
+JGB,Jagdalpur Airport,Jagdalpur,small_airport,yes
+JLG,Jalgaon Airport,Jalgaon,small_airport,yes
+JLR,Jabalpur Airport,Jabalpur,medium_airport,yes
+JRG,Jharsuguda Airport,,small_airport,yes
+JRH,Jorhat Airport,Jorhat,medium_airport,yes
+JSA,Jaisalmer Airport,,medium_airport,yes
+KBK,Kushinagar International Airport,Kushinagar,medium_airport,no
+KJB,Kurnool Airport,Orvakal,medium_airport,yes
+KLH,Kolhapur Airport,Kolhapur,medium_airport,yes
+KNU,Kanpur Airport,Kanpur,medium_airport,yes
+KQH,Kishangarh Airport Ajmer,Ajmer (Kishangarh),medium_airport,yes
+KTU,Kota Airport,Kota,medium_airport,no
+KUU,Kullu Manali Airport,Bhuntar,medium_airport,yes
+LDA,Malda Airport,Malda,small_airport,no
+LKO,Chaudhary Charan Singh International Airport,Lucknow,large_airport,yes
+LTU,Murod Kond Airport,Latur,medium_airport,yes
+LUH,Ludhiana Airport,,medium_airport,no
+MAA,Chennai International Airport,Chennai,large_airport,yes
+MYQ,Mysore Airport,Mysore,medium_airport,yes
+MZS,Moradabad Airport,Moradabad,medium_airport,yes
+MZU,Muzaffarpur Airport,Muzaffarpur,medium_airport,no
+NAG,Dr. Babasaheb Ambedkar International Airport,Nagpur,large_airport,yes
+NDC,Nanded Airport,Nanded,medium_airport,yes
+NMB,Daman Airport,Daman,medium_airport,no
+NMI,Navi Mumbai International Airport,Navi Mumbai,large_airport,yes
+NVY,Neyveli Airport,Neyveli,small_airport,no
+PAB,Bilaspur Airport,Bilaspur,medium_airport,yes
+PAT,Jay Prakash Narayan Airport,Patna,medium_airport,yes
+PBD,Porbandar Airport,Porbandar,medium_airport,yes
+PGH,Pantnagar Airport,Pantnagar,medium_airport,yes
+PNQ,Pune International Airport,Pune,large_airport,yes
+PNY,Pondicherry Airport,Puducherry (Pondicherry),medium_airport,yes
+PUT,Sri Sathya Sai Airport,Puttaparthi,medium_airport,no
+PYB,Jeypore Airport,Jeypore,small_airport,no
+PYG,Pakyong Airport,Pakyong,small_airport,no
+RAJ,Rajkot Airport,Rajkot,medium_airport,no
+RDP,Kazi Nazrul Islam Airport,Durgapur,medium_airport,yes
+REW,"Rewa Airport, Chorhata, REWA",Rewa,medium_airport,yes
+RGH,Balurghat Airport,Balurghat,small_airport,no
+RJA,Rajahmundry Airport,Madhurapudi,medium_airport,yes
+RJI,Rajouri Airport,Rajouri,small_airport,no
+RMD,Basanth Nagar Airport,Ramagundam,small_airport,no
+RPR,Swami Vivekananda Airport,Raipur,medium_airport,yes
+RQY,Rashtrakavi Kuvempu Airport,Shimoga,medium_airport,no
+RRK,Rourkela Airport,Rourkela,medium_airport,no
+RTC,Ratnagiri Airport,,medium_airport,no
+RUP,Rupsi Airport,Rupsi,small_airport,no
+SAG,Shirdi International Airport,Kakadi,large_airport,yes
+SDW,Sindhudurg Airport,Chipi,medium_airport,yes
+SHL,Shillong Airport,Shillong,medium_airport,yes
+SLV,Shimla Airport,Jubbarhatti,small_airport,no
+SSE,Solapur Airport,Solapur,medium_airport,no
+STV,Surat International Airport,Surat,large_airport,yes
+SWN,Sarsawa Air Force Station,Sherpur Naqeebpur,small_airport,no
+SXR,Sheikh ul Alam International Airport,Srinagar,large_airport,yes
+SXV,Salem Airport,Salem,medium_airport,no
+TCR,Tuticorin Airport,Vagaikulam,small_airport,yes
+TEI,Tezu Airport,Tezu,small_airport,no
+TEZ,Tezpur Airport,,medium_airport,yes
+TIR,Tirupati International Airport,Tirupati,large_airport,yes
+TJV,Thanjavur Air Force Station,Thanjavur,small_airport,no
+TNI,Satna Airport,,small_airport,no
+TRV,Thiruvananthapuram International Airport,Thiruvananthapuram,large_airport,yes
+TRZ,Tiruchirappalli International Airport,Tiruchirappalli,large_airport,yes
+UDR,Maharana Pratap Airport,Udaipur,medium_airport,yes
+UKE,Utkela Airport,Bhawanipatna,medium_airport,yes
+VDY,Jindal Vijaynagar Airport,Toranagallu,small_airport,no
+VGA,Vijayawada International Airport,Vijayawada,large_airport,yes
+VNS,Lal Bahadur Shastri International Airport,Varanasi,large_airport,yes
+VSV,Shravasti Airport,Shravasti,small_airport,yes
+VTZ,Visakhapatnam International Airport,Visakhapatnam,large_airport,yes
+WGC,Warangal Airport,Warangal,small_airport,no
+ZER,Ziro Airport,Ziro,medium_airport,no
