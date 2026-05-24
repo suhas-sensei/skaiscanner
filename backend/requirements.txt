@@ -1,8 +1,11 @@
 django>=5.0,<6.0
 graphene-django>=3.2,<4.0
 celery[redis]>=5.4,<6.0
+dj-database-url>=2.2,<3.0
+django-cors-headers>=4.4,<5.0
 django-redis>=5.4,<6.0
 django-prometheus>=2.3,<3.0
+gunicorn>=23.0,<24.0
 meilisearch>=0.34,<1.0
 opensearch-py>=2.8,<3.0
 psycopg[binary]>=3.2,<4.0
@@ -11,4 +14,5 @@ python-dotenv>=1.0,<2.0
 prometheus-client>=0.20,<1.0
 sentry-sdk>=2.0,<3.0
 selenium>=4.20,<5.0
+whitenoise[brotli]>=6.8,<7.0
 playwright>=1.50,<2.0

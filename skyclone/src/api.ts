@@ -14,6 +14,12 @@ export type FlightSearchParams = {
   sort: string;
 };
 
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '');
+
+function apiUrl(path: string) {
+  return `${API_BASE_URL}${path}`;
+}
+
 export async function searchFlights(params: FlightSearchParams): Promise<FlightSearchResponse> {
   const query = `
     query FlightOffers($origin: String!, $destination: String!, $date: String!, $sort: String!) {
@@ -64,7 +70,7 @@ export async function searchFlights(params: FlightSearchParams): Promise<FlightS
     }
   `;
 
-  const response = await fetch('/graphql/', {
+  const response = await fetch(apiUrl('/graphql/'), {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
     credentials: 'include',
@@ -86,7 +92,7 @@ export async function searchFlights(params: FlightSearchParams): Promise<FlightS
 }
 
 async function graphql<T>(query: string, variables: Record<string, unknown> = {}): Promise<T> {
-  const response = await fetch('/graphql/', {
+  const response = await fetch(apiUrl('/graphql/'), {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
     credentials: 'include',
