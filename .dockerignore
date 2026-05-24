@@ -1,0 +1,11 @@
+.git
+.github
+backend/.venv
+backend/logs
+backend/staticfiles
+backend/__pycache__
+backend/**/__pycache__
+backend/.env
+skyclone/node_modules
+skyclone/dist
+*.log
