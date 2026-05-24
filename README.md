@@ -30,7 +30,3 @@ cd skyclone
 npm install
 npm run dev
 ```
-
-## Notes
-
-The app uses a local database with flight offers. Do not delete Docker volumes unless you want to remove the data.
