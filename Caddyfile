@@ -1,0 +1,4 @@
+skaiscanner.13.200.249.237.sslip.io {
+    encode zstd gzip
+    reverse_proxy frontend:80
+}
